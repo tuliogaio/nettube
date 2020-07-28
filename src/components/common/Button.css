@@ -1,0 +1,59 @@
+.signinButton {
+  color: red;
+  font-weight: bold;
+  border: 0;
+  background-color: white;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+.searchButton {
+  background-color: black;
+  border: 0;
+  padding: 20px;
+  color: white;
+  border: 1px solid black;
+  text-decoration: none;
+}
+.searchButtonAngle {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.categoriesButton {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 25px;
+}
+.optionsLoggedButton {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.boxButtonsActionsPlay {
+  background-color: black;
+  border: 0;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+.boxButtonsActionsInfo {
+  background-color: lightgrey;
+  border: 0;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.boxButtonsIco{
+  margin-right: 10px;
+}

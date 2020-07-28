@@ -1,0 +1,9 @@
+.modalItems {
+  margin: 10px 0 10px 10px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.modalItems a{
+  color: white;
+  text-decoration: none;
+}

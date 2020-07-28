@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { BrowserRouter } from "react-router-dom";
+import Routes from './views/main/routes'
 import * as serviceWorker from './serviceWorker';
+import { Provider } from 'react-redux'
+import configStore from './store/storeConfig'
+
+import 'font-awesome/css/font-awesome.min.css';
+import './index.css';
+
+const store = configStore()
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
+  </Provider >,
   document.getElementById('root')
 );
 
